@@ -10,10 +10,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             OTPLibraryTheme {
-                OtpInputField(
-                    itemCount = 4,
-                    onOtpComplete = {}
-                )
             }
         }
     }

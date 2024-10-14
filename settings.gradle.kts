@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "OTPLibrary"
 include(":app")
+include(":OTP-Input-Field-Compose")
